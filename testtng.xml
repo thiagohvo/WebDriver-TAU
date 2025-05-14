@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Selenium WebDriver Demo Suite">
+    <test name="Testes de Login, Formulários e Alertas">
+        <classes>
+            <class name="com.selenium.demo.LoginTest"/>
+            <class name="com.selenium.demo.FormTest"/>
+            <class name="com.selenium.demo.AlertTest"/>
+        </classes>
+    </test>
+</suite>
